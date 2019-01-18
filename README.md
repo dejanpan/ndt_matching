@@ -14,7 +14,7 @@ colcon build
 ```
 
 ## Organization
-The package contains an [executable](src/nndt_node.cpp) and a [library](src/ndt_lib.cpp). The library should contain
+The package contains an [executable](src/ndt_node.cpp) and a [library](src/ndt_lib.cpp). The library should contain
 an implemented algorithm and the executable, a ROS2 node, should subscribe to two
 PointCloud2 messages and publishes one PoseStamped message.
 
